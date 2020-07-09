@@ -17,8 +17,8 @@
 
 
 2、line_image_patch中包含了两种不同的图像块：
-   （1）逐个像素点计算梯度方向确定旋转角度（Different rotation angle）
-   （2）计算第一个点与最后一个点之间的梯度方向确定旋转角度（Same rotation angle）
+   （1）逐个像素点计算梯度方向确定旋转角度（Different_rotation_angle_linepatch）
+   （2）计算第一个点与最后一个点之间的梯度方向确定旋转角度（Same_rotation_angle_linepatch）
    
    两种图像块中均包含了：linematch_train和linematch_test分别作为训练集与测试集（分别由图像集中训练与测试文件夹中的图像获取，获取顺序不同）
    两个文件夹中均包含若干个1024*1024（.bmp）的图像，每个图像又包含16*8个line_patch，每个line_patch是64*128大小的灰度图像样本。
